@@ -34,4 +34,4 @@ fi
 
 echo 'c.NotebookApp.disable_check_xsrf = True' >> ~/.jupyter/jupyter_notebook_config.py
 
-cp $GIT_PARENT_DIR/githubcommit/config ~/.ssh/config
+cp $GIT_PARENT_DIR/gitjupcommit/config ~/.ssh/config
