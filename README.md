@@ -46,10 +46,6 @@ export GIT_EMAIL=`<your email linked with GitHub account>` <br />
 export GITHUB_ACCESS_TOKEN=`<access-token from github developer settings>` <br />
 export GIT_USER_UPSTREAM=`<your GitHub username>` <br />
 
-<!-- ## Screenshots -->
+## Working Demo
 
-
-<!-- ## Credits -->
-
-<!-- Thanks to https://github.com/Lab41/sunny-side-up and https://github.com/sat28/githubcommit for laying the foundation of this extension. -->
-
+![Github Extension demo](https://user-images.githubusercontent.com/32926581/84434666-194b1900-ac4e-11ea-80c1-0f7e8bfda282.gif)
