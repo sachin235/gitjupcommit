@@ -13,9 +13,6 @@ define(['base/js/namespace','base/js/dialog','jquery'],function(IPython, dialog,
             var input = $('<textarea rows="2" cols="52"></textarea>')
             var div = $('<div/>')
 
-            // var checkbox = '<input type="checkbox" id="commit_only_source" name="feature" value="scales" checked /><label>commit only source code</label>'
-    
-            // div.append(checkbox)
             div.append(p)
                .append(input)
 
@@ -28,7 +25,6 @@ define(['base/js/namespace','base/js/dialog','jquery'],function(IPython, dialog,
                 var payload = {
                              'filename': filepath,
                              'msg': input.val(),
-                            //  'commit_only_source': $("#commit_only_source").prop('checked')
                            };
                 var settings = {
                     url : '/git/commit',
